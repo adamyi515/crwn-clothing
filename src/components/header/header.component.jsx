@@ -7,7 +7,6 @@ import { auth } from '../../firebase/firebase.utils';
 
 const Header = (props) => {
     const { currentUser } = props; 
-
     return(
         <div className="header">
             
